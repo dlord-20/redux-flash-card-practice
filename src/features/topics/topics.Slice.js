@@ -23,6 +23,8 @@ export const topicsSlice = createSlice({
     }
 })
 
+export const { addTopic } = topicsSlice.actions;
+
 export const selectTopics = (state) => state.topics.topics;
 
 
