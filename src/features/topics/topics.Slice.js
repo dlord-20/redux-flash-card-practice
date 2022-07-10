@@ -7,6 +7,9 @@ const initialState = {
         },
         favoriteTopics: {
 
+        },
+        excludeTopics: {
+
         }
     }
 }
@@ -17,7 +20,7 @@ export const topicsSlice = createSlice({
     reducers: {
         addTopic: (state, acton) => {
             //Might need to deconstruct this to make it easier to understand what is going on
-            state.topics.topics.push(action.payload);
+            // state.topics.topics.push(action.payload);
             //6.3-6.4 bullets
         }
     }
