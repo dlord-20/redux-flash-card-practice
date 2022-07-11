@@ -3,7 +3,8 @@ import { createSlice } from "@reduxjs/toolkit";
 const initialState = {
     topics: {
         topics: {
-
+            name: '',
+            subject: '',
         },
         favoriteTopics: {
 
